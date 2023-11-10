@@ -47,10 +47,13 @@ education:
     - course: MSc in Economics
       institution: Nova SBE
       year: 2020
+    - course: MSc in Economics
+      institution: Tilburg University
+      year: 2019
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
+# skills:
 #  - name: Technical
 #    items:
 #      - name: Python
@@ -72,7 +75,7 @@ social:
     link: https://github.com/johanneskarge
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/johannes-karge
+    link: https://www.linkedin.com/in/johannes-karge/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -81,8 +84,8 @@ social:
   #  link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 ---
 
-I am a PhD student in Economics at Paris School of Economics.
+I am a PhD student in Economics at Paris School of Economics. My research interests include macroeconomics, financial stability, private sector debt and corporate finance.
 {style="text-align: justify;"}
