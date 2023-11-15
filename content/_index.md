@@ -44,33 +44,13 @@ sections:
       username: admin
     design:
       columns: '2'
-  - block: collection
-    id: posts
+   - block: markdown
     content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+      title: News
+      text: |
+        - [15/09/2023] Started my PhD at PSE
+        - [01/09/2023] Graduated from PSE's M2 APE program
+        - [12/06/2023] Thesis Defense and PhD Proposal Discussion at PSE
   - block: portfolio
     id: projects
     content:
@@ -98,28 +78,9 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
   - block: collection
     content:
-      title: Recent Publications
+      title: Research and Publications
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -149,8 +110,8 @@ sections:
       directions: Office R5-70
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+        latitude: '48.822621' 
+        longitude: '2.331941'  
       # Automatically link email and phone or display as text?
       autolink: true
     design:
