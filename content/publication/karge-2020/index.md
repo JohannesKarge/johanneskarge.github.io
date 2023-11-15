@@ -5,5 +5,5 @@ authors:
 date: '2021-01-01'
 publishDate: '2023-11-10T11:13:13.245359Z'
 publication_types:
-- thesis
+- working papers
 ---
