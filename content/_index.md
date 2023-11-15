@@ -55,6 +55,7 @@ sections:
   - block: portfolio
     content:
       title: Projects
+      subtitle: Work in Progress
       filters:
         folders:
           - project
