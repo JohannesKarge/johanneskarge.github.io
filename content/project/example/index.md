@@ -15,6 +15,6 @@ date: '2016-04-27T00:00:00Z'
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+# slides: example
 ---
-# Text for summary - include below
+Research project on corporate debt and macroeconomic fluctuations as part of my PhD.
