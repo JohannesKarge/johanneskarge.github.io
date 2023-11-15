@@ -96,8 +96,8 @@ sections:
       email: johannes.karge@psemail.eu
       address:
         street: 48 Boulevard Jourdan
-        city: Paris
         postcode: '75015'
+        city: Paris
         country: France
         country_code: FR
       directions: Office R5-70
