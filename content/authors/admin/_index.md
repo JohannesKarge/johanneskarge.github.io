@@ -25,7 +25,7 @@ organizations:
     url: https://www.parisschoolofeconomics.eu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include macroeconomics, financial stability, private sector debt and corporate finance.
+bio: I am a PhD student in Economics at Paris School of Economics. My research interests include macroeconomics, financial stability, private sector debt and corporate finance.
 
 # Interests to show in About widget
 interests:
