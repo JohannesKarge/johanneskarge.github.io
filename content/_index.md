@@ -49,8 +49,8 @@ sections:
       title: News
       text: |
         - [15/09/2023] Started my PhD at PSE
-        - News item 2
-        - News item 3
+        - [01/09/2023] Graduated from PSE's M2 APE program
+        - [12/06/2023] MRes Thesis Defense and PhD Proposal Discussion at PSE
   - block: portfolio
     id: projects
     content:
