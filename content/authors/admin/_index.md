@@ -87,5 +87,5 @@ social:
 highlight_name: false
 ---
 
-I am a PhD student in Economics at Paris School of Economics. My research interests include macroeconomics, financial stability, private sector debt and corporate finance. Previously, I worked for two years at the European Central Bank within banking supervision and climate-financial risk analysis. 
+I am a PhD student in Economics at Paris School of Economics under the supervision of Prof. Dr. Eric Monnet (PSE) and Dr. Thibault Libert (Banque de France). My research interests include macroeconomics, financial stability, private sector debt and corporate finance. Previously, I worked for two years at the European Central Bank within banking supervision and climate-financial risk analysis. 
 {style="text-align: justify;"}
