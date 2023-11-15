@@ -52,7 +52,6 @@ sections:
         - [01/09/2023] Graduated from PSE's M2 APE program
         - [12/06/2023] MRes Thesis Defense and PhD Proposal Discussion at PSE
   - block: portfolio
-    id: projects
     content:
       title: Projects
       filters:
@@ -72,6 +71,7 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: collection
+    id: research
     content:
       title: Research 
       text: |-
