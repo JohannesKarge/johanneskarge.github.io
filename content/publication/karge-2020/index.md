@@ -2,7 +2,7 @@
 title: 'Macroeconomic Fluctuations and Private Debt in the Euro Area: A FAVAR Approach'
 authors:
 - admin
-date: '2021-01-01'
+date: '2023-06-01'
 publishDate: '2023-11-10T11:13:13.245359Z'
 publication_types:
 - "report"
