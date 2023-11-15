@@ -98,7 +98,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Feel free to reach out.
       # Contact (add or remove contact options as necessary)
       email: johannes.karge@psemail.eu
       address:
