@@ -44,6 +44,13 @@ sections:
       username: admin
     design:
       columns: '2'
+  - block: markdown
+    content:
+      title: News
+      text: |
+        - News item 1
+        - News item 2
+        - News item 3
   - block: portfolio
     id: projects
     content:
