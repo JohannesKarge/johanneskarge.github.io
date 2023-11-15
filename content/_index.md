@@ -48,7 +48,7 @@ sections:
     content:
       title: News
       text: |
-        - News item 1
+        - [15/09/2023] Started my PhD at PSE
         - News item 2
         - News item 3
   - block: portfolio
