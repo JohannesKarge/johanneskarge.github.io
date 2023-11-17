@@ -86,8 +86,11 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
+Welcome to my website!
 
-I am a PhD student in Economics at Paris School of Economics under the supervision of [Prof. Dr. Eric Monnet](https://www.ericmonnet.eu/) (PSE) and Dr. Thibault Libert (Banque de France). My research interests include macroeconomics, financial stability, private sector debt and corporate finance. Previously, I worked for two years at the European Central Bank within banking supervision and climate-financial risk analysis. 
+I am a PhD student in Economics at Paris School of Economics under the supervision of [Prof. Dr. Eric Monnet](https://www.ericmonnet.eu/) (PSE) and Dr. Thibault Libert (Banque de France). My research interests include macroeconomics, financial stability, private sector debt and corporate finance. 
+
+Previously, I worked for two years at the European Central Bank within banking supervision and climate-financial risk analysis. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/johannes_karge_cv.pdf" "newtab" >}} CV{{< /staticref >}}.
 {style="text-align: justify;"}
