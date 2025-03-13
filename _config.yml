@@ -656,4 +656,5 @@ jsonresume:
   - _layouts/archive-tag.liquid
   - _layouts/archive-year.liquid
   - _plugins/external-posts.rb
+  - _includes/news.liquid 
 
