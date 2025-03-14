@@ -193,6 +193,20 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _posts/
+  - _projects/?_project.md
+  - assets/jupyter/blog.ipynb
+  - _includes/latest_posts.liquid
+  - _includes/related_posts.liquid
+  - _layouts/archive-category.liquid
+  - _layouts/archive-tag.liquid
+  - _layouts/archive-year.liquid
+  - _plugins/external-posts.rb
+  - _includes/news.liquid 
+
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -639,22 +653,4 @@ jsonresume:
   - languages
   - interests
   - references
-
-# -----------------------------------------------------------------------------
-# Excluding sections by this command rather than deleting files
-# -----------------------------------------------------------------------------
-
-  excludes:
-  - _news/announcement_*.md
-  - _pages/blog.md
-  - _posts/
-  - _projects/?_project.md
-  - assets/jupyter/blog.ipynb
-  - _includes/latest_posts.liquid
-  - _includes/related_posts.liquid
-  - _layouts/archive-category.liquid
-  - _layouts/archive-tag.liquid
-  - _layouts/archive-year.liquid
-  - _plugins/external-posts.rb
-  - _includes/news.liquid 
 
