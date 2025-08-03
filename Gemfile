@@ -28,6 +28,7 @@ end
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
     gem 'css_parser'
+    gem 'faraday-retry'  # required for Faraday v2.0+
     gem 'feedjira'
     gem 'httparty'
     gem 'observer'       # used by jekyll-scholar
