@@ -1,0 +1,36 @@
+top_skills:
+  - Economic Research
+  - Economic History
+  - Private Sector Debt
+  - Macroeconomics
+  - Financial Stability
+  - Corporate Finance
+  - Banking
+  - Climate Risk Analysis
+
+technical_skills:
+  - R Programming
+  - Python
+  - Stata
+  - Econometrics
+  - Data Analysis
+  - Statistical Modeling
+
+languages:
+  - language: German
+    proficiency: Native or Bilingual
+  - language: English
+    proficiency: Full Professional
+  - language: French
+    proficiency: Limited Working
+  - language: Spanish
+    proficiency: Elementary
+  - language: Portuguese
+    proficiency: Elementary
+
+certifications:
+  - Career Track - Quantitative Analyst with R
+  - Career Track - Data Analyst with R
+  - Intermediate Python for Data Science
+  - Introduction to Python
+  - pandas Foundations

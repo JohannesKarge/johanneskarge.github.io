@@ -1,0 +1,106 @@
+---
+# Licenses & Certifications for Jekyll Project
+certifications:
+  - title: "Microsoft Office Excel 2016 Expert"
+    issuer: "Microsoft"
+    date_issued: "Nov 2020"
+    credential_id: "wMyFK-FMpx"
+    logo: "assets/images/certifications/microsoft.svg"
+    color: "#00BCF2"
+    url: "https://www.credly.com/badges/verify"
+    skills:
+      - "Data Analysis"
+    
+  - title: "Matlab Onramp"
+    issuer: "MathWorks"
+    date_issued: "Oct 2019"
+    credential_id: null
+    show_credential: true
+    logo: "assets/images/certifications/mathworks.svg"
+    color: "#F58025"
+    url: null
+    skills: []
+    
+  - title: "Career Track: Data Analyst with R"
+    issuer: "DataCamp"
+    date_issued: "Sep 2019"
+    credential_id: "#101420"
+    show_credential: true
+    logo: "assets/images/certifications/datacamp.svg"
+    color: "#03EF62"
+    url: "https://www.datacamp.com/certificate/DA0018893542577"
+    skills:
+      - "Data Analysis"
+      - "Econometrics"
+      - "Financial Markets"
+      - "Applied Econometrics"
+      - "Time Series Analysis"
+      - "Statistics"
+      
+  - title: "Career Track: Quantitative Analyst with R"
+    issuer: "DataCamp"
+    date_issued: "Jul 2019"
+    credential_id: "#91770"
+    show_credential: true
+    logo: "assets/images/certifications/datacamp.svg"
+    color: "#03EF62"
+    url: "https://www.datacamp.com/certificate/QA0018893542577"
+    skills:
+      - "Data Analysis"
+      - "Econometrics"
+      - "Financial Markets"
+      - "Financial Stability"
+      - "Applied Econometrics"
+      - "Time Series Analysis"
+      - "Statistics"
+      
+  - title: "Skill Track: Time Series with R"
+    issuer: "DataCamp"
+    date_issued: "Jun 2019"
+    credential_id: "#86505"
+    show_credential: true
+    logo: "assets/images/certifications/datacamp.svg"
+    color: "#03EF62"
+    url: "https://www.datacamp.com/certificate/TS0018893542577"
+    skills:
+      - "Data Analysis"
+      - "Econometrics"
+      - "Financial Markets"
+      - "Financial Stability"
+      - "Applied Econometrics"
+      - "Time Series Analysis"
+      - "Statistics"
+      
+  - title: "pandas Foundations"
+    issuer: "DataCamp"
+    date_issued: "Nov 2018"
+    credential_id: "#7576582"
+    show_credential: true
+    logo: "assets/images/certifications/datacamp.svg"
+    color: "#03EF62"
+    url: "https://www.datacamp.com/certificate/PD0018893542577"
+    skills:
+      - "Data Analysis"
+      
+  - title: "Intermediate Python for Data Science"
+    issuer: "DataCamp"
+    date_issued: "Oct 2018"
+    credential_id: "#7043129"
+    show_credential: true
+    logo: "assets/images/certifications/datacamp.svg"
+    color: "#03EF62"
+    url: "https://www.datacamp.com/certificate/IP0018893542577"
+    skills:
+      - "Data Analysis"
+      
+  - title: "Introduction to Python"
+    issuer: "DataCamp"
+    date_issued: "Sep 2018"
+    credential_id: "#7026049"
+    show_credential: true
+    logo: "assets/images/certifications/datacamp.svg"
+    color: "#03EF62"
+    url: "https://www.datacamp.com/certificate/PY0018893542577"
+    skills:
+      - "Data Analysis"
+---
