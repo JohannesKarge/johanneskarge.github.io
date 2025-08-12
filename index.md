@@ -265,7 +265,7 @@ layout: default
 <section class="contact-section" id="contact">
   <div class="container">
     <h2>Contact</h2>
-    <p>Feel free to reach out for research collaborations or academic inquiries.</p>
+    <p>Feel free to reach out for research collaborations or any other inquiries.</p>
     <div class="contact-info">
       <a href="mailto:{{ site.data.profile.email }}" class="contact-link">
         <i class="fas fa-envelope"></i> {{ site.data.profile.email }}
