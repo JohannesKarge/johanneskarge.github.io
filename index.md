@@ -158,8 +158,8 @@ layout: default
   </div>
 </section>
 
-<section class="certifications-section" id="certifications">
-  <div class="container">
+# <section class="certifications-section" id="certifications">
+#  <div class="container">
     <h2>Licenses & Certifications</h2>
     <div class="certifications-grid">
       {% for cert in site.data.certifications.certifications %}
@@ -214,8 +214,8 @@ layout: default
   </div>
 </section>
 
-<section class="memberships-section" id="memberships">
-  <div class="container">
+# <section class="memberships-section" id="memberships">
+#  <div class="container">
     <h2>Memberships & Volunteering</h2>
     
     <h3>Professional Memberships</h3>
