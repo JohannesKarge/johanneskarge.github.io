@@ -1,0 +1,52 @@
+---
+# Memberships & Volunteering for Jekyll Project
+memberships:
+  - organization: "European Economic Association (EEA)"
+    role: "Member"
+    start_date: "Oct 2020"
+    end_date: "Present"
+    duration: "4 yrs 11 mos"
+    category: "Education"
+    description: null
+    
+  - organization: "NOVAFRICA"
+    role: "Member & Event Organizer"
+    start_date: "Oct 2019"
+    end_date: "Jun 2020"
+    duration: "9 mos"
+    category: "Education"
+    description: |
+      As a member of Novafrica's Student Group I gave two presentations and hosted subsequent discussions with other students on:
+      • The West African monetary union ECOWAS and its members' preparedness
+      • The macroeconomic impacts of cash transfers in a development context based on Egger, Dennis, Johannes Haushofer, Edward Miguel, Paul Niehaus, and Michael Walker (2019): General Equilibrium Effects of Cash Transfers: Experimental Evidence from Kenya, unpublished working paper
+    
+  - organization: "Asset | Economics"
+    role: "Member"
+    start_date: "Sep 2018"
+    end_date: "Jun 2019"
+    duration: "10 mos"
+    category: "Education"
+    description: |
+      Participated in the following events:
+      • Inside the Business Day September 2018
+      • Talent Day February 2019
+      • Economic Business weeks Tilburg April 2019
+
+volunteering:
+  - activity: "Teaching German"
+    organization: "private"
+    start_date: "Jan 2016"
+    end_date: "Aug 2018"
+    duration: "2 yrs 8 mos"
+    category: "Education"
+    description: "Teaching German to Syrian refugees as well as I try to help them with their social integration."
+    
+  - activity: "ESN Buddy Program"
+    organization: "Erasmus Student Network"
+    role: "Member"
+    start_date: "Sep 2016"
+    end_date: "Feb 2017"
+    duration: "6 mos"
+    category: "Education"
+    description: "ESN Buddy Program"
+---

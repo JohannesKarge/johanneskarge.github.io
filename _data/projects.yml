@@ -1,0 +1,140 @@
+---
+# Projects for Jekyll Project
+projects:
+  - title: "Corporate Debt and Macroeconomic Fluctuations"
+    start_date: "Feb 2023"
+    end_date: "Jun 2023"
+    duration: "5 mos"
+    institution: "Paris School of Economics"
+    type: "Thesis"
+    supervisor: "Professor Eric Monnet, Ph.D."
+    program: "MRes program"
+    description: "Thesis at Paris School of Economics written under the supervision of Professor Eric Monnet, Ph.D. as part of its MRes program."
+    skills:
+      - "Economics"
+      - "Time Series Analysis"
+      - "Econometrics"
+      - "Applied Econometrics"
+      - "Data Analysis"
+      - "Macroeconomics"
+      - "Statistics"
+      - "Empirical Macroeconomics"
+      - "Research"
+      - "Quantitative Research"
+      - "Financial Economics"
+      - "Financial Markets"
+      - "Economic Research"
+      - "Private Sector Debt"
+      - "LaTeX"
+      - "Financial Stability"
+
+  - title: "Macroeconomic Fluctuations and Private Debt in the Euro Area: A FAVAR Approach"
+    start_date: "Jul 2020"
+    end_date: "Dec 2020"
+    duration: "6 mos"
+    institution: "Nova School of Business and Economics"
+    type: "Master Thesis"
+    supervisor: "Assistant Professor Joao B. Duarte, Ph.D."
+    link: "Link to an early version of the paper"
+    presentation: "ECB Internal Banking Supervision Research Seminar in June 2022"
+    description: |
+      I estimate a Bayesian FAVAR model for the Euro Area to investigate the impact of supply and demand shocks to private sector debt on the currency block's macroeconomic dynamics. The approach has the advantage to study the shocks' repercussions on a wide range of variables. I identify the shocks via sign restrictions on private sector debt and on an interest rate spread. I find that while positive supply debt shocks have no effects on the Euro Area's macroeconomy, positive demand shocks have negative macroeconomic impacts on various macroeconomic variables. My findings imply that correctly uncovering whether debt shocks are supply or demand driven is crucial for optimal macroprudential policy responses.
+
+      Master Thesis at Nova SBE written under the supervision of Assistant Professor Joao B. Duarte, Ph.D. Currently I am preparing an extended version which I already presented at the ECB Internal Banking Supervision Research Seminar in June 2022.
+
+      Please feel free to get in touch for an extended version of the paper.
+    skills:
+      - "Economics"
+      - "Time Series Analysis"
+      - "Econometrics"
+      - "Applied Econometrics"
+      - "Data Analysis"
+      - "Macroeconomics"
+      - "Statistics"
+      - "Research"
+      - "Quantitative Research"
+      - "Financial Economics"
+      - "Financial Markets"
+      - "Economic Research"
+      - "Private Sector Debt"
+      - "LaTeX"
+      - "Financial Stability"
+
+  - title: "Credit Default and Borrower Clusters in the Prosper Loan Data Set: A Machine Learning Approach"
+    start_date: "Mar 2020"
+    end_date: "May 2020"
+    duration: "3 mos"
+    institution: "Nova School of Business and Economics"
+    type: "Research Project"
+    technologies: "Python"
+    methods:
+      - "Logistic Regression"
+      - "Decision Tree Classifier"
+      - "k-Means algorithm"
+    description: |
+      We used the Prosper loan data set with more than 80 features and +11000 entries on the characteristics of individual loans and borrowers such as initial amount, risk rating or interest rate charged to implement a machine learning approach in Python to analyze and predict defaults. We employed Logistic Regression, a Decision Tree Classifier as well as a k-Means algorithm to answer the following questions: 1) Who will default on their loan? and 2) Can we identify meaningful clusters of borrowers based on their features?
+
+      Being aware of the unbalanced data at hand, we found that the borrower-specific interest rate charged, loan purpose and the borrower's employment status are key features to predict default. Cluster analysis revealed a high risk-high reward segment of small scale loans as well as a low risk segment constituted of different loan sizes.
+    key_findings:
+      - "Borrower-specific interest rate charged is key feature for default prediction"
+      - "Loan purpose is important predictor"
+      - "Borrower's employment status affects default likelihood"
+      - "Identified high risk-high reward segment of small scale loans"
+      - "Found low risk segment with different loan sizes"
+    skills:
+      - "Economics"
+      - "Data Analysis"
+      - "Statistics"
+      - "Quantitative Research"
+      - "Financial Economics"
+      - "Economic Research"
+      - "Financial Stability"
+    contributors: true
+
+  - title: "Legal Origins and Short-Run Financial and Economic Stability"
+    start_date: "Mar 2019"
+    end_date: "Jul 2019"
+    duration: "5 mos"
+    institution: "Tilburg University"
+    type: "Master Thesis"
+    supervisor: "Associate Professor Burak Uras, Ph.D."
+    hypothesis: "Civil law origin has a business cycle dampening effect"
+    description: |
+      This paper bridges two lines of research. On the one hand, La Porta et al. (2008) have shown that legal origins have significant long term impacts on financial and economic development. On the other hand, a small branch of literature investigates the impact of institutional factors on business cycles. This paper researches the influence of legal origins on business cycles in a cross-country framework. The underlying hypothesis is that civil law origin has a business cycle dampening effect. I find weak evidence for my hypothesis as civil legal origin significantly impacts business cycles directly. This is also robust to the use of an alternative proxy for financial development. However, I do not find an effect when employing legal origins as instruments for financial development. The initial literature argues that their influence is likely to impact an economy indirectly via this channel.
+
+      Master Thesis at Tilburg University written under the supervision of Associate Professor Burak Uras, Ph.D.
+    key_findings:
+      - "Weak evidence for hypothesis that civil legal origin impacts business cycles directly"
+      - "Results robust to alternative proxy for financial development"
+      - "No effect when using legal origins as instruments for financial development"
+    skills:
+      - "Economics"
+      - "Econometrics"
+      - "Applied Econometrics"
+      - "Data Analysis"
+      - "Macroeconomics"
+      - "Statistics"
+      - "Research"
+      - "Quantitative Research"
+      - "Financial Economics"
+      - "Economic Research"
+      - "LaTeX"
+      - "Financial Stability"
+
+  - title: "Python Project: Air Pollution and Health Care Expenditure"
+    start_date: "Jan 2019"
+    end_date: "Mar 2019"
+    duration: "3 mos"
+    institution: "Tilburg University"
+    type: "Coding Seminar Project"
+    technologies: "Python"
+    data_source: "World Bank data"
+    description: "We used World Bank data to examine the relationship between air pollution and relative health care expenditure in a cross-country framework with Python as part of a coding seminar at Tilburg University."
+    research_focus: "Relationship between air pollution and relative health care expenditure"
+    methodology: "Cross-country framework analysis"
+    skills:
+      - "Economics"
+      - "Data Analysis"
+      - "Statistics"
+      - "Quantitative Research"
+---
