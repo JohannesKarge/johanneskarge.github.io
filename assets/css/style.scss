@@ -168,6 +168,40 @@ h4 {
   margin-bottom: 2rem;
 }
 
+// About Section with Photo
+.about-content {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-photo {
+  flex-shrink: 0;
+  
+  .profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    
+    @media (max-width: 768px) {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+
 // Research Interests
 .research-interests {
   display: flex;
