@@ -1,11 +1,12 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.0"
-gem "minima", "~> 2.5"
+# Use GitHub Pages gem for compatibility
+gem "github-pages", group: :jekyll_plugins
+gem "faraday-retry"
 gem "csv"
 gem "base64"
 
-# GitHub Pages plugins
+# Additional plugins if needed
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15"
   gem "jekyll-seo-tag", "~> 2.8"
