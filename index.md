@@ -7,7 +7,6 @@ layout: default
     <h1 class="hero-title">{{ site.data.profile.name }}</h1>
     <p class="hero-subtitle">{{ site.data.profile.title }}</p>
     <p class="hero-location"><i class="fas fa-map-marker-alt"></i> {{ site.data.profile.location }}</p>
-    
     <div class="hero-links">
       <a href="mailto:{{ site.data.profile.email }}" class="btn btn-primary">
         <i class="fas fa-envelope"></i> Email
@@ -35,8 +34,6 @@ layout: default
       <div class="about-photo">
         <img src="/assets/profile-photo.jpg" alt="{{ site.data.profile.name }}" class="profile-photo">
       </div>
-    </div>
-    
     </div>
     <h3>Research Interests</h3>
     <div class="research-interests">
@@ -135,7 +132,6 @@ layout: default
 <section class="skills-section" id="skills">
   <div class="container">
     <h2>Skills & Expertise</h2>
-    
     <div class="skills-grid">
       <div class="skill-category">
         <h3>Core Competencies</h3>
@@ -145,7 +141,6 @@ layout: default
           {% endfor %}
         </div>
       </div>
-      
       <div class="skill-category">
         <h3>Technical Skills</h3>
         <div class="skill-tags">
@@ -155,7 +150,6 @@ layout: default
         </div>
       </div>
     </div>
-    
     <h3>Languages</h3>
     <div class="languages">
       {% for lang in site.data.skills.languages %}
@@ -165,7 +159,6 @@ layout: default
       </div>
       {% endfor %}
     </div>
-    
   </div>
 </section>
 
@@ -185,16 +178,16 @@ layout: default
             {{ cert.issuer }}
           </div>
         </div>
-        
+
         <div class="cert-body">
           <h3 class="cert-title">{{ cert.title }}</h3>
-          
+
           <div class="cert-meta">
             <div class="cert-date">
               <i class="fas fa-calendar-check"></i>
               <span>{{ cert.date_issued }}</span>
             </div>
-            
+
             {% if cert.credential_id %}
             <div class="cert-credential">
               <i class="fas fa-fingerprint"></i>
@@ -202,7 +195,7 @@ layout: default
             </div>
             {% endif %}
           </div>
-          
+
           {% if cert.skills and cert.skills.size > 0 %}
           <div class="cert-skills">
             {% for skill in cert.skills limit:4 %}
@@ -213,7 +206,7 @@ layout: default
             {% endif %}
           </div>
           {% endif %}
-          
+
           {% if cert.url %}
           <a href="{{ cert.url }}" target="_blank" class="cert-verify-btn">
             <i class="fas fa-external-link-alt"></i>
@@ -233,7 +226,7 @@ layout: default
 <section class="memberships-section" id="memberships">
   <div class="container">
     <h2>Memberships & Volunteering</h2>
-    
+
     <h3>Professional Memberships</h3>
     <div class="timeline">
       {% for membership in site.data.memberships_volunteering.memberships %}
@@ -254,7 +247,7 @@ layout: default
       </div>
       {% endfor %}
     </div>
-    
+
     <h3>Volunteering</h3>
     <div class="timeline">
       {% for volunteer in site.data.memberships_volunteering.volunteering %}
