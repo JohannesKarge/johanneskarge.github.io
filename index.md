@@ -230,6 +230,7 @@ layout: default
 
 
 <!-- Commented out for now
+<section class="memberships-section" id="memberships">
   <div class="container">
     <h2>Memberships & Volunteering</h2>
     
