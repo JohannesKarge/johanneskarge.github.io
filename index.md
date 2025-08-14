@@ -18,6 +18,9 @@ layout: default
       <a href="{{ site.data.profile.pse_profile }}" target="_blank" class="btn btn-secondary">
         <i class="fas fa-university"></i> PSE Profile
       </a>
+      <a href="/assets/cv.pdf" target="_blank" class="btn btn-secondary">
+        <i class="fas fa-file-pdf"></i> CV
+      </a>
     </div>
   </div>
 </section>
@@ -25,8 +28,16 @@ layout: default
 <section class="about-section">
   <div class="container">
     <h2>About</h2>
-    <p class="lead">{{ site.data.profile.summary }}</p>
+    <div class="about-content">
+      <div class="about-text">
+        <p class="lead">{{ site.data.profile.summary }}</p>
+      </div>
+      <div class="about-photo">
+        <img src="/assets/profile-photo.jpg" alt="{{ site.data.profile.name }}" class="profile-photo">
+      </div>
+    </div>
     
+    </div>
     <h3>Research Interests</h3>
     <div class="research-interests">
       {% for interest in site.data.profile.research_interests %}
@@ -159,8 +170,8 @@ layout: default
 </section>
 
 
-<!---
- <section class="certifications-section" id="certifications">
+<!-- Commented out for now
+<section class="certifications-section" id="certifications">
   <div class="container">
     <h2>Licenses & Certifications</h2>
     <div class="certifications-grid">
@@ -215,8 +226,11 @@ layout: default
     </div>
   </div>
 </section>
+-->
 
- <section class="memberships-section" id="memberships">
+
+<!-- Commented out for now
+<section class="memberships-section" id="memberships">
   <div class="container">
     <h2>Memberships & Volunteering</h2>
     
