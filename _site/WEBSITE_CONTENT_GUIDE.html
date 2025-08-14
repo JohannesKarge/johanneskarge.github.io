@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Content Guide | Johannes Karge</title>
+  <meta name="description" content="PhD Candidate at Paris School of Economics & Junior Research Economist at Banque de France">
+  
+  <!-- SEO -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Website Content Guide | Johannes Karge</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Website Content Guide" />
+<meta name="author" content="Johannes Karge" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="PhD Candidate at Paris School of Economics &amp; Junior Research Economist at Banque de France" />
+<meta property="og:description" content="PhD Candidate at Paris School of Economics &amp; Junior Research Economist at Banque de France" />
+<link rel="canonical" href="http://localhost:4000/WEBSITE_CONTENT_GUIDE.html" />
+<meta property="og:url" content="http://localhost:4000/WEBSITE_CONTENT_GUIDE.html" />
+<meta property="og:site_name" content="Johannes Karge" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Website Content Guide" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Johannes Karge"},"description":"PhD Candidate at Paris School of Economics &amp; Junior Research Economist at Banque de France","headline":"Website Content Guide","url":"http://localhost:4000/WEBSITE_CONTENT_GUIDE.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav">
+        <a href="/" class="site-title">Johannes Karge</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#memberships">Memberships</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <h1 id="website-content-guide">Website Content Guide</h1>
+
+<p>This guide explains how to update and modify the content of Johannes Karge’s portfolio website.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+  <li><a href="#website-overview">Website Overview</a></li>
+  <li><a href="#quick-start">Quick Start</a></li>
+  <li><a href="#updating-personal-information">Updating Personal Information</a></li>
+  <li><a href="#modifying-content-sections">Modifying Content Sections</a></li>
+  <li><a href="#adding-new-content">Adding New Content</a></li>
+  <li><a href="#testing-changes-locally">Testing Changes Locally</a></li>
+  <li><a href="#deploying-to-github-pages">Deploying to GitHub Pages</a></li>
+</ol>
+
+<h2 id="website-overview">Website Overview</h2>
+
+<p>This is a Jekyll-based static website that uses YAML data files to manage content. The site automatically builds and deploys to GitHub Pages when you push changes to the repository.</p>
+
+<h3 id="key-technologies">Key Technologies</h3>
+<ul>
+  <li><strong>Jekyll</strong>: Static site generator that converts Markdown and data files into HTML</li>
+  <li><strong>YAML</strong>: Human-readable data format used for content storage</li>
+  <li><strong>Liquid</strong>: Templating language used in Jekyll for dynamic content</li>
+  <li><strong>GitHub Pages</strong>: Free hosting service that automatically builds Jekyll sites</li>
+</ul>
+
+<h3 id="directory-structure">Directory Structure</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>johanneskarge.github.io/
+├── _data/                  # Content data files (YAML)
+│   ├── profile.yml        # Personal information
+│   ├── experience.yml     # Work experience
+│   ├── education.yml      # Educational background
+│   ├── projects.yml       # Research projects
+│   ├── skills.yml         # Technical skills
+│   ├── certifications.yml # Professional certifications
+│   └── memberships_volunteering.yml
+├── _layouts/              # Page templates
+│   └── default.html       # Main layout template
+├── assets/                # Static assets
+│   ├── css/              # Stylesheets
+│   └── images/           # Images and logos
+├── _config.yml           # Site configuration
+└── index.md              # Homepage content
+</code></pre></div></div>
+
+<h2 id="quick-start">Quick Start</h2>
+
+<p>To make changes to the website content, you only need to edit the YAML files in the <code class="language-plaintext highlighter-rouge">_data/</code> directory. No HTML or programming knowledge is required for content updates.</p>
+
+<h2 id="updating-personal-information">Updating Personal Information</h2>
+
+<h3 id="basic-profile-_dataprofileyml">Basic Profile (_data/profile.yml)</h3>
+
+<p>Edit <code class="language-plaintext highlighter-rouge">_data/profile.yml</code> to update:</p>
+<ul>
+  <li>Name and title</li>
+  <li>Location</li>
+  <li>Email address</li>
+  <li>LinkedIn profile URL</li>
+  <li>PSE profile URL</li>
+  <li>Professional summary</li>
+  <li>Research interests</li>
+</ul>
+
+<p><strong>Example:</strong></p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">Johannes Karge</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">PhD Candidate at Paris School of Economics</span>
+<span class="na">location</span><span class="pi">:</span> <span class="s">Paris, Île-de-France, France</span>
+<span class="na">email</span><span class="pi">:</span> <span class="s">j.r.karge@gmail.com</span>
+<span class="na">linkedin</span><span class="pi">:</span> <span class="s">https://www.linkedin.com/in/johannes-karge</span>
+<span class="na">pse_profile</span><span class="pi">:</span> <span class="s">https://www.parisschoolofeconomics.eu/en/people/johannes-karge/</span>
+
+<span class="na">summary</span><span class="pi">:</span> <span class="pi">|</span>
+  <span class="s">Your professional summary here. Use the pipe (|) symbol</span>
+  <span class="s">for multi-line text.</span>
+
+<span class="na">research_interests</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Macroeconomics</span>
+  <span class="pi">-</span> <span class="s">Financial Stability</span>
+  <span class="pi">-</span> <span class="s">Banking</span>
+</code></pre></div></div>
+
+<h3 id="site-configuration-_configyml">Site Configuration (_config.yml)</h3>
+
+<p>Update <code class="language-plaintext highlighter-rouge">_config.yml</code> for:</p>
+<ul>
+  <li>Website title</li>
+  <li>Meta description</li>
+  <li>Author name</li>
+  <li>Contact email</li>
+  <li>Site URL (when deploying)</li>
+</ul>
+
+<h2 id="modifying-content-sections">Modifying Content Sections</h2>
+
+<h3 id="work-experience-_dataexperienceyml">Work Experience (_data/experience.yml)</h3>
+
+<p>Add or modify work experience entries:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">company</span><span class="pi">:</span> <span class="s">Company Name</span>
+  <span class="na">title</span><span class="pi">:</span> <span class="s">Your Job Title</span>
+  <span class="na">start_date</span><span class="pi">:</span> <span class="s">January </span><span class="m">2024</span>
+  <span class="na">end_date</span><span class="pi">:</span> <span class="s">Present</span>  <span class="c1"># or specific date</span>
+  <span class="na">location</span><span class="pi">:</span> <span class="s">City, State/Region, Country</span>
+  <span class="na">description</span><span class="pi">:</span> <span class="pi">|</span>
+    <span class="s">Description of your role and responsibilities.</span>
+    <span class="s">Can be multiple lines using the pipe symbol.</span>
+</code></pre></div></div>
+
+<h3 id="education-_dataeducationyml">Education (_data/education.yml)</h3>
+
+<p>Update educational background:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">institution</span><span class="pi">:</span> <span class="s">University Name</span>
+  <span class="na">degree</span><span class="pi">:</span> <span class="s">Degree Type (e.g., PhD, Master's)</span>
+  <span class="na">field</span><span class="pi">:</span> <span class="s">Field of Study</span>
+  <span class="na">start_date</span><span class="pi">:</span> <span class="s">September </span><span class="m">2020</span>
+  <span class="na">end_date</span><span class="pi">:</span> <span class="s">June </span><span class="m">2024</span>
+  <span class="na">duration</span><span class="pi">:</span> <span class="s">4 years</span>  <span class="c1"># Optional</span>
+  <span class="na">description</span><span class="pi">:</span> <span class="s">Additional details about your studies</span>  <span class="c1"># Optional</span>
+</code></pre></div></div>
+
+<h3 id="projects--research-_dataprojectsyml">Projects &amp; Research (_data/projects.yml)</h3>
+
+<p>Add research projects:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">projects</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Project Title</span>
+    <span class="na">institution</span><span class="pi">:</span> <span class="s">Institution Name</span>  <span class="c1"># Optional</span>
+    <span class="na">type</span><span class="pi">:</span> <span class="s">Research Paper / Thesis / etc.</span>
+    <span class="na">supervisor</span><span class="pi">:</span> <span class="s">Supervisor Name</span>  <span class="c1"># Optional</span>
+    <span class="na">start_date</span><span class="pi">:</span> <span class="s">January </span><span class="m">2023</span>
+    <span class="na">end_date</span><span class="pi">:</span> <span class="s">December </span><span class="m">2023</span>
+    <span class="na">duration</span><span class="pi">:</span> <span class="s">1 year</span>  <span class="c1"># Optional</span>
+    <span class="na">description</span><span class="pi">:</span> <span class="s">Project description</span>
+    <span class="na">skills</span><span class="pi">:</span>  <span class="c1"># Optional list of technologies/methods used</span>
+      <span class="pi">-</span> <span class="s">Python</span>
+      <span class="pi">-</span> <span class="s">Econometrics</span>
+      <span class="pi">-</span> <span class="s">Data Analysis</span>
+</code></pre></div></div>
+
+<h3 id="skills-_dataskillsyml">Skills (_data/skills.yml)</h3>
+
+<p>Update technical and language skills:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">top_skills</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Data Analysis</span>
+  <span class="pi">-</span> <span class="s">Economic Research</span>
+  <span class="pi">-</span> <span class="s">Statistical Modeling</span>
+
+<span class="na">technical_skills</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Python</span>
+  <span class="pi">-</span> <span class="s">R</span>
+  <span class="pi">-</span> <span class="s">Stata</span>
+  <span class="pi">-</span> <span class="s">MATLAB</span>
+
+<span class="na">languages</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">language</span><span class="pi">:</span> <span class="s">English</span>
+    <span class="na">proficiency</span><span class="pi">:</span> <span class="s">Native/Fluent</span>
+  <span class="pi">-</span> <span class="na">language</span><span class="pi">:</span> <span class="s">French</span>
+    <span class="na">proficiency</span><span class="pi">:</span> <span class="s">Professional</span>
+  <span class="pi">-</span> <span class="na">language</span><span class="pi">:</span> <span class="s">German</span>
+    <span class="na">proficiency</span><span class="pi">:</span> <span class="s">Intermediate</span>
+</code></pre></div></div>
+
+<h3 id="certifications-_datacertificationsyml">Certifications (_data/certifications.yml)</h3>
+
+<p>Add professional certifications:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">certifications</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Certification Name</span>
+    <span class="na">issuer</span><span class="pi">:</span> <span class="s">Issuing Organization</span>
+    <span class="na">date_issued</span><span class="pi">:</span> <span class="s">January </span><span class="m">2024</span>
+    <span class="na">credential_id</span><span class="pi">:</span> <span class="s">ABC123</span>  <span class="c1"># Optional</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">https://verify.certification.com/ABC123</span>  <span class="c1"># Optional</span>
+    <span class="na">logo</span><span class="pi">:</span> <span class="s">/assets/images/certifications/logo.svg</span>
+    <span class="na">color</span><span class="pi">:</span> <span class="s2">"</span><span class="s">#0066CC"</span>  <span class="c1"># Brand color for styling</span>
+    <span class="na">skills</span><span class="pi">:</span>  <span class="c1"># Optional</span>
+      <span class="pi">-</span> <span class="s">Related Skill </span><span class="m">1</span>
+      <span class="pi">-</span> <span class="s">Related Skill </span><span class="m">2</span>
+</code></pre></div></div>
+
+<h3 id="memberships--volunteering-_datamemberships_volunteeringyml">Memberships &amp; Volunteering (_data/memberships_volunteering.yml)</h3>
+
+<p>Update professional memberships and volunteer work:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">memberships</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">organization</span><span class="pi">:</span> <span class="s">Organization Name</span>
+    <span class="na">role</span><span class="pi">:</span> <span class="s">Member / Board Member / etc.</span>
+    <span class="na">start_date</span><span class="pi">:</span> <span class="s">January </span><span class="m">2023</span>
+    <span class="na">end_date</span><span class="pi">:</span> <span class="s">Present</span>
+    <span class="na">duration</span><span class="pi">:</span> <span class="s">2 years</span>  <span class="c1"># Optional</span>
+    <span class="na">description</span><span class="pi">:</span> <span class="s">Description of involvement</span>  <span class="c1"># Optional</span>
+
+<span class="na">volunteering</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">activity</span><span class="pi">:</span> <span class="s">Volunteer Activity</span>
+    <span class="na">organization</span><span class="pi">:</span> <span class="s">Organization Name</span>
+    <span class="na">start_date</span><span class="pi">:</span> <span class="s">June </span><span class="m">2022</span>
+    <span class="na">end_date</span><span class="pi">:</span> <span class="s">August </span><span class="m">2022</span>
+    <span class="na">duration</span><span class="pi">:</span> <span class="s">3 months</span>  <span class="c1"># Optional</span>
+    <span class="na">description</span><span class="pi">:</span> <span class="s">Description of volunteer work</span>  <span class="c1"># Optional</span>
+</code></pre></div></div>
+
+<h2 id="adding-new-content">Adding New Content</h2>
+
+<h3 id="adding-images">Adding Images</h3>
+
+<ol>
+  <li>Place images in <code class="language-plaintext highlighter-rouge">assets/images/</code> directory</li>
+  <li>For certification logos: <code class="language-plaintext highlighter-rouge">assets/images/certifications/</code></li>
+  <li>Reference in YAML files using relative paths:
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">logo</span><span class="pi">:</span> <span class="s">/assets/images/certifications/company-logo.svg</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="creating-new-data-categories">Creating New Data Categories</h3>
+
+<ol>
+  <li>Create a new YAML file in <code class="language-plaintext highlighter-rouge">_data/</code> directory</li>
+  <li>Add corresponding section in <code class="language-plaintext highlighter-rouge">index.md</code> using Liquid templating</li>
+  <li>Style the new section in <code class="language-plaintext highlighter-rouge">assets/css/style.scss</code></li>
+</ol>
+
+<p><strong>Example:</strong> Adding a Publications section</p>
+
+<ol>
+  <li>Create <code class="language-plaintext highlighter-rouge">_data/publications.yml</code>:
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Paper Title</span>
+  <span class="na">authors</span><span class="pi">:</span> <span class="s">J. Karge, Co-author</span>
+  <span class="na">journal</span><span class="pi">:</span> <span class="s">Journal Name</span>
+  <span class="na">year</span><span class="pi">:</span> <span class="m">2024</span>
+  <span class="na">url</span><span class="pi">:</span> <span class="s">https://link-to-paper.com</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Add to <code class="language-plaintext highlighter-rouge">index.md</code>:
+```html</li>
+</ol>
+<section class="publications-section" id="publications">
+  <div class="container">
+    <h2>Publications</h2>
+    
+  </div>
+</section>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+## Testing Changes Locally
+
+### Prerequisites
+- Ruby (version 2.5 or higher)
+- Bundler gem
+
+### Setup and Running
+
+1. **Install Jekyll and dependencies:**
+   ```bash
+   bundle install
+</code></pre></div></div>
+
+<ol>
+  <li><strong>Run the local server:</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>View your site:</strong>
+Open browser and go to <code class="language-plaintext highlighter-rouge">http://localhost:4000</code></p>
+  </li>
+  <li><strong>Making changes:</strong>
+    <ul>
+      <li>Edit YAML files in <code class="language-plaintext highlighter-rouge">_data/</code></li>
+      <li>Save changes</li>
+      <li>Browser will auto-refresh (if not, manually refresh)</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="troubleshooting-local-development">Troubleshooting Local Development</h3>
+
+<ul>
+  <li><strong>Port already in use:</strong> Use <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --port 4001</code></li>
+  <li><strong>Changes not showing:</strong> Clear browser cache or use incognito mode</li>
+  <li><strong>Build errors:</strong> Check YAML syntax (proper indentation is crucial)</li>
+</ul>
+
+<h2 id="deploying-to-github-pages">Deploying to GitHub Pages</h2>
+
+<h3 id="automatic-deployment">Automatic Deployment</h3>
+
+<p>The site automatically deploys when you push changes to the <code class="language-plaintext highlighter-rouge">main</code> branch:</p>
+
+<ol>
+  <li><strong>Make your changes locally</strong></li>
+  <li><strong>Commit changes:</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s2">"Update profile information"</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Push to GitHub:</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push origin main
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Wait for deployment:</strong>
+    <ul>
+      <li>GitHub Actions will automatically build and deploy</li>
+      <li>Takes 2-5 minutes typically</li>
+      <li>Check Actions tab on GitHub for build status</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="manual-deployment-check">Manual Deployment Check</h3>
+
+<ol>
+  <li>Go to repository Settings</li>
+  <li>Navigate to Pages section</li>
+  <li>Verify source is set to “Deploy from a branch”</li>
+  <li>Branch should be <code class="language-plaintext highlighter-rouge">main</code> and folder should be <code class="language-plaintext highlighter-rouge">/ (root)</code></li>
+</ol>
+
+<h3 id="custom-domain-optional">Custom Domain (Optional)</h3>
+
+<p>To use a custom domain:</p>
+
+<ol>
+  <li>Add a <code class="language-plaintext highlighter-rouge">CNAME</code> file in the root directory with your domain:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>www.yourdomain.com
+</code></pre></div>    </div>
+  </li>
+  <li>Configure DNS settings with your domain provider:
+    <ul>
+      <li>Add CNAME record pointing to <code class="language-plaintext highlighter-rouge">[username].github.io</code></li>
+      <li>Or add A records to GitHub’s IP addresses</li>
+    </ul>
+  </li>
+  <li>Update <code class="language-plaintext highlighter-rouge">_config.yml</code>:
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://www.yourdomain.com"</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="best-practices">Best Practices</h2>
+
+<h3 id="content-guidelines">Content Guidelines</h3>
+
+<ol>
+  <li><strong>YAML Formatting:</strong>
+    <ul>
+      <li>Use consistent indentation (2 spaces recommended)</li>
+      <li>Quote strings containing special characters</li>
+      <li>Use pipe <code class="language-plaintext highlighter-rouge">|</code> for multi-line text</li>
+    </ul>
+  </li>
+  <li><strong>Dates:</strong>
+    <ul>
+      <li>Use consistent format (e.g., “January 2024” or “Jan 2024”)</li>
+      <li>Use “Present” for current positions</li>
+    </ul>
+  </li>
+  <li><strong>Descriptions:</strong>
+    <ul>
+      <li>Keep concise and professional</li>
+      <li>Use bullet points for clarity (with <code class="language-plaintext highlighter-rouge">-</code> in YAML)</li>
+      <li>Highlight key achievements and skills</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="version-control">Version Control</h3>
+
+<ol>
+  <li><strong>Commit frequently</strong> with descriptive messages</li>
+  <li><strong>Test locally</strong> before pushing to main</li>
+  <li><strong>Keep backups</strong> of important content changes</li>
+  <li><strong>Use branches</strong> for major redesigns:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-b</span> new-feature
+<span class="c"># Make changes</span>
+git push origin new-feature
+<span class="c"># Create pull request on GitHub</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="performance-tips">Performance Tips</h3>
+
+<ol>
+  <li><strong>Optimize images:</strong>
+    <ul>
+      <li>Use SVG for logos when possible</li>
+      <li>Compress JPG/PNG files</li>
+      <li>Keep images under 500KB</li>
+    </ul>
+  </li>
+  <li><strong>Limit content:</strong>
+    <ul>
+      <li>Show only recent/relevant experience</li>
+      <li>Use pagination for long lists</li>
+      <li>Archive old content separately</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="common-issues-and-solutions">Common Issues and Solutions</h2>
+
+<h3 id="content-not-updating">Content Not Updating</h3>
+
+<p><strong>Problem:</strong> Changes to YAML files don’t appear on the website</p>
+
+<p><strong>Solutions:</strong></p>
+<ul>
+  <li>Check YAML syntax (use online YAML validator)</li>
+  <li>Ensure proper indentation</li>
+  <li>Clear browser cache</li>
+  <li>Check GitHub Actions for build errors</li>
+</ul>
+
+<h3 id="build-failures">Build Failures</h3>
+
+<p><strong>Problem:</strong> GitHub Pages build fails</p>
+
+<p><strong>Solutions:</strong></p>
+<ul>
+  <li>Check <code class="language-plaintext highlighter-rouge">_config.yml</code> for syntax errors</li>
+  <li>Verify all referenced files exist</li>
+  <li>Check Gemfile.lock is not outdated</li>
+  <li>Review error message in GitHub Actions tab</li>
+</ul>
+
+<h3 id="styling-issues">Styling Issues</h3>
+
+<p><strong>Problem:</strong> Content appears unstyled or broken</p>
+
+<p><strong>Solutions:</strong></p>
+<ul>
+  <li>Check CSS file path in <code class="language-plaintext highlighter-rouge">_layouts/default.html</code></li>
+  <li>Verify <code class="language-plaintext highlighter-rouge">assets/css/style.css</code> exists</li>
+  <li>Clear browser cache</li>
+  <li>Check browser console for errors</li>
+</ul>
+
+<h2 id="additional-resources">Additional Resources</h2>
+
+<ul>
+  <li><a href="https://jekyllrb.com/docs/">Jekyll Documentation</a></li>
+  <li><a href="https://docs.github.com/en/pages">GitHub Pages Documentation</a></li>
+  <li><a href="https://yaml.org/spec/1.2/spec.html">YAML Syntax Guide</a></li>
+  <li><a href="https://shopify.github.io/liquid/">Liquid Template Language</a></li>
+  <li><a href="https://www.markdownguide.org/">Markdown Guide</a></li>
+</ul>
+
+<h2 id="support">Support</h2>
+
+<p>For issues specific to this website structure:</p>
+<ol>
+  <li>Check this guide first</li>
+  <li>Review GitHub Actions logs for build errors</li>
+  <li>Test changes locally before pushing</li>
+  <li>Create an issue in the repository if problems persist</li>
+</ol>
+
+<hr />
+
+<p><em>Last updated: January 2025</em></p>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Johannes Karge. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

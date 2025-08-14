@@ -1,12 +1,11 @@
 ---
 # Projects for Jekyll Project
 
-I study the long-run development of the financial system and how it responds to macro-financial shocks and business cycles. 
-In my work I combine archival records and modern statistics to create consistent long-run data, offering new 
-insights into the role of how  the financial sytem interacts with the rest of the economy.
+# Description:
+# I study the long-run development of the financial system and how it responds to macro-financial shocks and business cycles. 
+# In my work I combine archival records and modern statistics to create consistent long-run data, offering new 
+# insights into the role of how the financial sytem interacts with the rest of the economy.
 
-
-<!---
 projects:
   - title: "Corporate Debt and Macroeconomic Fluctuations"
     start_date: "Feb 2023"
@@ -145,5 +144,4 @@ projects:
       - "Statistics"
       - "Quantitative Research"
 
--->
 ---
