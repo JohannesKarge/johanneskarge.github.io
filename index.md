@@ -169,6 +169,7 @@ layout: default
   </div>
 </section>
 
+
 <!-- Commented out for now
 <section class="certifications-section" id="certifications">
   <div class="container">
@@ -227,8 +228,8 @@ layout: default
 </section>
 -->
 
+
 <!-- Commented out for now
-<section class="memberships-section" id="memberships">
   <div class="container">
     <h2>Memberships & Volunteering</h2>
     
