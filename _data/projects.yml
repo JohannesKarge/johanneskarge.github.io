@@ -141,7 +141,7 @@ projects:
   #   skills:
   #     - "Economics"
   #     - "Data Analysis"
-      - "Statistics"
-      - "Quantitative Research"
+  #    - "Statistics"
+  #    - "Quantitative Research"
 
 ---
