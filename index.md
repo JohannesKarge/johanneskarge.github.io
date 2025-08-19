@@ -100,8 +100,20 @@ layout: default
         {{ pdata.intro | markdownify }}
       </div>
     {% endif %}
+    {%- comment -%}
+      Support both structures:
+      A) _data/projects.yml:
+         intro: ...
+         projects: [ { ... }, { ... } ]
+      B) _data/projects.yml is directly a list: [ { ... }, ... ]
+    {%- endcomment -%}
+    {% if pdata.projects %}
+      {% assign items = pdata.projects %}
+    {% else %}
+      {% assign items = pdata %}
+    {% endif %}
     <div class="timeline">
-      {% for project in site.data.projects.projects %}
+      {% for project in items %}
       <div class="timeline-item">
         <div class="timeline-date">
           {{ project.start_date }} - {{ project.end_date }}
