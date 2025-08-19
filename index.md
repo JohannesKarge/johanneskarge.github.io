@@ -94,26 +94,8 @@ layout: default
 <section class="projects-section" id="projects">
   <div class="container">
     <h2>Projects & Research</h2>
-    {% assign pdata = site.data.projects %}
-    {% if pdata.intro %}
-      <div class="projects-intro">
-        {{ pdata.intro | markdownify }}
-      </div>
-    {% endif %}
-    {%- comment -%}
-      Support both structures:
-      A) _data/projects.yml:
-         intro: ...
-         projects: [ { ... }, { ... } ]
-      B) _data/projects.yml is directly a list: [ { ... }, ... ]
-    {%- endcomment -%}
-    {% if pdata.projects %}
-      {% assign items = pdata.projects %}
-    {% else %}
-      {% assign items = pdata %}
-    {% endif %}
     <div class="timeline">
-      {% for project in items %}
+      {% for project in site.data.projects.projects %}
       <div class="timeline-item">
         <div class="timeline-date">
           {{ project.start_date }} - {{ project.end_date }}
@@ -132,9 +114,7 @@ layout: default
           {% if project.supervisor %}
           <p class="supervisor"><strong>Supervisor:</strong> {{ project.supervisor }}</p>
           {% endif %}
-          <div class="description">
-            {{ project.description | markdownify }}
-          </div>
+          <p class="description">{{ project.description }}</p>
           {% if project.skills %}
           <div class="project-skills">
             {% for skill in project.skills limit:5 %}
