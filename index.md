@@ -94,6 +94,12 @@ layout: default
 <section class="projects-section" id="projects">
   <div class="container">
     <h2>Projects & Research</h2>
+    {% assign pdata = site.data.projects %}
+    {% if pdata.intro %}
+      <div class="projects-intro">
+        {{ pdata.intro | markdownify }}
+      </div>
+    {% endif %}
     <div class="timeline">
       {% for project in site.data.projects.projects %}
       <div class="timeline-item">
@@ -114,7 +120,9 @@ layout: default
           {% if project.supervisor %}
           <p class="supervisor"><strong>Supervisor:</strong> {{ project.supervisor }}</p>
           {% endif %}
-          <p class="description">{{ project.description }}</p>
+          <div class="description">
+            {{ project.description | markdownify }}
+          </div>
           {% if project.skills %}
           <div class="project-skills">
             {% for skill in project.skills limit:5 %}
