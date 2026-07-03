@@ -1,47 +1,35 @@
----
-# Projects for Jekyll Project
-
+intro: >
+  My work studies the interaction of financial systems, corporate debt, and macroeconomic outcomes across long historical horizons and contemporary data.
 projects:
-  - title: "Financial Stability, Corporate Debt and Macroeconomic Fluctuations"
-    start_date: "Sep 2023"
-    end_date: "Present"
-    duration: "In Progress"
-    institution: "Paris School of Economics"
-    type: "PhD Thesis"
-    supervisor: "Professor Eric Monnet, Ph.D."
-    program: ""
-    description: >
-      PhD thesis at Paris School of Economics with three papers on financial stability, corporate finance, banking, and economic history.
-    skills:
-      - "Empirical Macroeconomics"
-      - "Economic History"
-      - "Banking"
-      - "Private Sector Debt"
-      - "Corporate Finance"
-      - "Financial Stability"
+  - title: "Bonds, Business Cycles and Financial Crises"
+    status: "Job market paper · Work in progress"
+    authors: "Johannes Karge"
+    abstract: >
+      Do corporate bond markets substitute for impaired banks during systemic banking crises? I assemble a new annual data set of primary bond issuance by sector for 21 countries since the nineteenth century. Event studies and local projections show that government issuance rises sharply, financial-corporate issuance increases only temporarily, and non-financial corporate issuance falls persistently. The findings reject an aggregate “spare tire” view: when banking systems are impaired, firms most exposed to bank credit do not obtain a broadly available market-based substitute.
+    tags:
+      - Corporate bond markets
+      - Financial crises
+      - Long-run data
+      - Local projections
 
-  - title: "Macroeconomic Fluctuations and Private Debt in the Euro Area: A FAVAR Approach"
-    start_date: "Jul 2020"
-    end_date: "Dec 2020"
-    duration: "6 mos"
-    institution: "Nova School of Business and Economics"
-    type: "Extended Master Thesis"
-    supervisor: "Assistant Professor Joao B. Duarte, Ph.D."
-    link: "Link to an early version of the paper"
-    presentation: "ECB Internal Banking Supervision Research Seminar in June 2022"
-    description: >
-      I estimate a Bayesian FAVAR model for the Euro Area to investigate the impact
-      of supply and demand shocks to private sector debt on the currency block's
-      macroeconomic dynamics. The approach has the advantage of studying the shocks'
-      repercussions on a wide range of variables. I identify the shocks via sign
-      restrictions on private sector debt and on an interest rate spread. I find that
-      while positive supply debt shocks have no effects on the Euro Area's macroeconomy,
-      positive demand shocks have negative macroeconomic impacts. My findings imply
-      that correctly uncovering whether debt shocks are supply or demand driven is
-      crucial for optimal macroprudential policy responses.
-    skills:
-      - "Time Series Analysis"
-      - "Private Sector Debt"
-      - "Financial Stability"
+  - title: "The French Banking System: A Long-Run Perspective"
+    status: "Work in progress"
+    authors: "with Eric Monnet, Kaspar Zimmermann and Angelo Riva"
+    abstract: >
+      This project develops a long-run perspective on the French banking system. It brings together historical sources to document changes in the structure of banks, their balance sheets, and their links to the wider financial system across major institutional and macroeconomic transformations. The goal is to provide new empirical evidence on how the organisation of banking and credit has evolved in France.
+    tags:
+      - French banking
+      - Financial history
+      - Long-run data
+      - Credit institutions
 
----
+  - title: "The Nexus of Corporate Debt and Investment: An Analysis for France"
+    status: "Work in progress"
+    authors: "with Urszula Szczerbowicz"
+    abstract: >
+      How does corporate indebtedness shape firms’ investment response to macro-financial conditions? This project examines the relationship between corporate debt and investment in France, focusing on how balance-sheet positions influence the transmission of financial conditions to real activity. It aims to distinguish the role of debt as a financing instrument from its role as a constraint during adverse conditions.
+    tags:
+      - Corporate debt
+      - Investment
+      - France
+      - Financial conditions

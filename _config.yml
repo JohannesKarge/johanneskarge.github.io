@@ -1,11 +1,10 @@
 # Jekyll configuration for Johannes Karge's academic website
 title: Johannes Karge
-description: PhD Candidate at Paris School of Economics & Junior Research Economist at Banque de France
+description: PhD Candidate at Paris School of Economics and EHESS & Junior Research Economist at Banque de France.
 author: Johannes Karge
-email: johannes.karge@psemail.eu 
-url: https://johanneskarge.github.io # your GitHub Pages URL will go here
+email: johannes.karge@psemail.eu
+url: https://johanneskarge.github.io
 
-# Build settings
 markdown: kramdown
 theme: minima
 plugins:
@@ -13,26 +12,22 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Social links
 linkedin_username: johannes-karge
 
-# Google Analytics (optional - add your tracking ID if you have one)
-# google_analytics: UA-XXXXXXXXX-X
-
-# Exclude files from build
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - README_DEPLOY.md
+  - WEBSITE_CONTENT_GUIDE.md
   - .gitignore
+  - vendor
 
-# Collections (if you want to add publications or research papers later)
 collections:
   research:
     output: true
     permalink: /research/:name
 
-# Default values
 defaults:
   - scope:
       path: ""
