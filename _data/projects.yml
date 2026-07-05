@@ -1,22 +1,23 @@
 intro: >
   My work studies the interaction of financial systems, corporate debt, and macroeconomic outcomes across long historical horizons and contemporary data.
+
 projects:
   - title: "Bonds, Business Cycles and Financial Crises"
     status: "Job market paper · Work in progress"
     authors: "Johannes Karge"
     abstract: >
-      Do corporate bond markets substitute for impaired banks during systemic banking crises? I assemble a new annual data set of primary bond issuance by sector for 21 countries since the nineteenth century. Event studies and local projections show that government issuance rises sharply, financial-corporate issuance increases only temporarily, and non-financial corporate issuance falls persistently. The findings reject an aggregate “spare tire” view: when banking systems are impaired, firms most exposed to bank credit do not obtain a broadly available market-based substitute.
+      Do corporate bond markets substitute for impaired banks during systemic banking crises? I assemble a new annual data set of primary bond issuance by sector for 21 countries since the nineteenth century. This makes it possible to document new stylized facts on bond-market development over the last century. I further show that banking crises coincide with substantial reallocations of primary issuance. Government issuance rises sharply, financial-corporate issuance increases only temporarily, and non-financial corporate issuance falls persistently. The findings reject an aggregate “spare tire” for corporations: when banking systems are impaired, firms do not obtain a broadly available market-based financing substitute.
     tags:
       - Corporate bond markets
       - Financial crises
       - Long-run data
-      - Local projections
+      - Macro & Corporate Finance
 
   - title: "The French Banking System: A Long-Run Perspective"
     status: "Work in progress"
     authors: "with Eric Monnet, Kaspar Zimmermann and Angelo Riva"
     abstract: >
-      This project develops a long-run perspective on the French banking system. It brings together historical sources to document changes in the structure of banks, their balance sheets, and their links to the wider financial system across major institutional and macroeconomic transformations. The goal is to provide new empirical evidence on how the organisation of banking and credit has evolved in France.
+      This project develops a long-run perspective on the French banking system. It brings together historical sources and modern data to document changes in the size, structure, and composition of banks and their balance sheets across major institutional and macroeconomic transformations. We provide new empirical evidence on how the organisation of banking and credit has evolved in France using unique bank-level balance-sheet data since the First World War.
     tags:
       - French banking
       - Financial history
@@ -27,7 +28,7 @@ projects:
     status: "Work in progress"
     authors: "with Urszula Szczerbowicz"
     abstract: >
-      How does corporate indebtedness shape firms’ investment response to macro-financial conditions? This project examines the relationship between corporate debt and investment in France, focusing on how balance-sheet positions influence the transmission of financial conditions to real activity. It aims to distinguish the role of debt as a financing instrument from its role as a constraint during adverse conditions.
+      How does corporate indebtedness shape firms’ investment responses? This project examines the relationship between corporate debt and investment in France, focusing on how firm-level indebtedness influences the transmission of financial conditions to real activity. It aims to distinguish, in a causal manner, the role of debt as a financing instrument from its role as a constraint by relying on a novel instrumental-variables approach.
     tags:
       - Corporate debt
       - Investment

@@ -27,11 +27,17 @@
     {{ content }}
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
+ <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-meta">
       <span>© {{ 'now' | date: '%Y' }} {{ site.author }}</span>
       <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
     </div>
-  </footer>
+
+    <p class="disclaimer">
+      The views expressed are those of the author and should under no circumstances be interpreted as reflecting those of the Banque de France or the Eurosystem.
+    </p>
+  </div>
+</footer>
 </body>
 </html>
