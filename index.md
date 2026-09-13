@@ -43,6 +43,15 @@ layout: default
           <p class="project-status">{{ project.status }}</p>
           <h3>{{ project.title }}</h3>
           <p class="authors">{{ project.authors }}</p>
+          {% if project.links %}
+          <div class="project-links">
+            {% for link in project.links %}
+              <a class="project-link" href="{{ link.url | relative_url }}" target="_blank" rel="noopener">{{ link.label }} ↗</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+{{ project.abstract | markdownify }}
           <div class="abstract">{{ project.abstract | markdownify }}</div>
           <div class="tag-list project-tags">
             {% for tag in project.tags %}

@@ -5,6 +5,11 @@ projects:
   - title: "Bonds, Business Cycles and Financial Crises"
     status: "Job market paper · Work in progress"
     authors: "Johannes Karge"
+    links:
+      - label: "Latest version"
+        url: "/assets/JMP_Bonds_Karge.pdf"
+      - label: "Download paper"
+        url: "/assets/JMP_Bonds_Karge.pdf"
     abstract: >
       Do corporate bond markets substitute for impaired banks during systemic banking crises? I assemble a new annual data set of primary bond issuance by sector for 21 countries since the nineteenth century. This makes it possible to document new stylized facts on bond-market development over the last century. I further show that banking crises coincide with substantial reallocations of primary issuance. Government issuance rises sharply, financial-corporate issuance increases only temporarily, and non-financial corporate issuance falls persistently. The findings reject an aggregate “spare tire” for corporations: when banking systems are impaired, firms do not obtain a broadly available market-based financing substitute.
     tags:
