@@ -37,30 +37,42 @@ layout: default
     <h2>Current projects</h2>
     <p class="research-intro">{{ site.data.projects.intro }}</p>
 
-    <div class="project-list">
-      {% for project in site.data.projects.projects %}
-        <article class="project-card">
-          <p class="project-status">{{ project.status }}</p>
-          <h3>{{ project.title }}</h3>
-          <p class="authors">{{ project.authors }}</p>
-          {% if project.links %}
+  <div class="project-list">
+  {% for project in site.data.projects.projects %}
+    <article class="project-card{% if project.featured %} project-card-featured{% endif %}">
+      
+      <div class="project-meta">
+        <p class="project-status">{{ project.status }}</p>
+        <h3>{{ project.title }}</h3>
+        <p class="authors">{{ project.authors }}</p>
+
+        {% if project.links %}
           <div class="project-links">
             {% for link in project.links %}
-              <a class="project-link" href="{{ link.url | relative_url }}" target="_blank" rel="noopener">{{ link.label }} ↗</a>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-{{ project.abstract | markdownify }}
-          <div class="abstract">{{ project.abstract | markdownify }}</div>
-          <div class="tag-list project-tags">
-            {% for tag in project.tags %}
-              <span class="tag tag-muted">{{ tag }}</span>
+              <a class="project-link"
+                 href="{{ link.url | relative_url }}"
+                 target="_blank"
+                 rel="noopener">
+                {{ link.label }} ↗
+              </a>
             {% endfor %}
           </div>
-        </article>
-      {% endfor %}
-    </div>
+        {% endif %}
+      </div>
+
+      <div class="project-content">
+        <div class="abstract">{{ project.abstract | markdownify }}</div>
+
+        <div class="tag-list project-tags">
+          {% for tag in project.tags %}
+            <span class="tag tag-muted">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+
+    </article>
+  {% endfor %}
+</div>
   </div>
 </section>
 

@@ -3,26 +3,25 @@ intro: >
 
 projects:
   - title: "Bonds, Business Cycles and Financial Crises"
-    status: "Job market paper · Work in progress"
+    status: "Job market paper"
     authors: "Johannes Karge"
+    featured: true
     links:
       - label: "Latest version"
         url: "/assets/JMP_Bonds_Karge.pdf"
-      - label: "Download paper"
-        url: "/assets/JMP_Bonds_Karge.pdf"
     abstract: >
-      Do corporate bond markets substitute for impaired banks during systemic banking crises? I assemble a new annual data set of primary bond issuance by sector for 21 countries since the nineteenth century. This makes it possible to document new stylized facts on bond-market development over the last century. I further show that banking crises coincide with substantial reallocations of primary issuance. Government issuance rises sharply, financial-corporate issuance increases only temporarily, and non-financial corporate issuance falls persistently. The findings reject an aggregate “spare tire” for corporations: when banking systems are impaired, firms do not obtain a broadly available market-based financing substitute.
+      Do corporate bond markets function as an aggregate “spare tire” when banks are impaired? I study this question using a new long-run dataset of primary bond issuance by issuer sector for 19 countries from the nineteenth century to the present. The data distinguish non-financial corporations, financial corporations, and governments, allowing me to trace how primary bond-market financing is reallocated during systemic banking crises. I find that non-financial corporate bond issuance contracts sharply and persistently after crisis onset rather than expanding to replace impaired bank lending. Three years after a crisis, issuance is roughly one-half below its pre-crisis level, while government issuance rises strongly and financial-sector issuance increases only temporarily. The contraction remains pronounced when issuance is scaled by GDP, investment, or pre-crisis bank credit, and is stable across historical periods, crisis definitions, and alternative specifications. Combining the issuance data with historical credit spreads shows that crises accompanied by larger credit-market repricing experience substantially deeper subsequent contractions in non-financial corporate issuance, consistent with tighter market conditions contributing to the decline. Countries with deeper pre-crisis bond markets subsequently experience stronger investment recovery, but this relationship is not distinctly stronger during banking crises. The results reveal an aggregation wedge between firm-level substitution and aggregate financing: selected firms may retain access to bond markets when banks retrench, but this margin is not large enough to stabilize non-financial corporate financing in systemic crises.
     tags:
       - Corporate bond markets
       - Financial crises
       - Long-run data
       - Macro & Corporate Finance
 
-  - title: "The French Banking System: A Long-Run Perspective"
+  - title: "French Banking: A Long-Run Perspective since the Belle Époque"
     status: "Work in progress"
     authors: "with Eric Monnet, Kaspar Zimmermann and Angelo Riva"
     abstract: >
-      This project develops a long-run perspective on the French banking system. It brings together historical sources and modern data to document changes in the size, structure, and composition of banks and their balance sheets across major institutional and macroeconomic transformations. We provide new empirical evidence on how the organisation of banking and credit has evolved in France using unique bank-level balance-sheet data since the First World War.
+      This project develops a long-run perspective on the French banking system. It brings together historical sources and modern data to document changes in the size, structure, and composition of banks and their balance sheets across major institutional and macroeconomic transformations. We provide new empirical evidence on how the organisation of banking and credit has evolved in France using unique bank-level balance-sheet data since the early twentieth century.
     tags:
       - French banking
       - Financial history
