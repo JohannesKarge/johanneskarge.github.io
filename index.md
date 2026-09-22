@@ -10,7 +10,8 @@ layout: default
       <p class="role">{{ site.data.profile.title }}</p>
       <p class="lead">{{ site.data.profile.summary }}</p>
       <div class="hero-actions">
-        <a class="button primary" href="{{ site.data.profile.cv | relative_url }}?v={{ site.data.profile.cv_version }}" target="_blank" rel="noopener">Download CV <span aria-hidden="true">↗</span></a>
+        <a class="button primary"href="{{ site.data.profile.cv | relative_url }}"
+         target="_blank" rel="noopener">Download CV <span aria-hidden="true">↗</span></a>
         <a class="button secondary" href="mailto:{{ site.data.profile.email }}">Get in touch</a>
       </div>
     </div>
@@ -88,7 +89,7 @@ layout: default
       <a href="{{ site.data.profile.pse_profile }}" target="_blank" rel="noopener">Paris School of Economics profile <span aria-hidden="true">↗</span></a>
       <a href="{{ site.data.profile.ideas_repec }}" target="_blank" rel="noopener">IDEAS / RePEc profile <span aria-hidden="true">↗</span></a>
       <a href="{{ site.data.profile.linkedin }}" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
-      <a href="{{ site.data.profile.cv | relative_url }}?v={{ site.data.profile.cv_version }}" target="_blank" rel="noopener">Curriculum vitae (PDF) <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.data.profile.cv | relative_url }}" target="_blank" rel="noopener">Curriculum vitae (PDF) <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 </section>
