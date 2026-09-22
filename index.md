@@ -9,11 +9,19 @@ layout: default
       <h1>{{ site.data.profile.name }}</h1>
       <p class="role">{{ site.data.profile.title }}</p>
       <p class="lead">{{ site.data.profile.summary }}</p>
-      <div class="hero-actions">
-        <a class="button primary"href="{{ site.data.profile.cv | relative_url }}"
-         target="_blank" rel="noopener">Download CV <span aria-hidden="true">↗</span></a>
-        <a class="button secondary" href="mailto:{{ site.data.profile.email }}">Get in touch</a>
-      </div>
+<div class="hero-actions">
+  <a class="button primary"
+     href="/assets/CV_Johannes_Karge.pdf"
+     target="_blank"
+     rel="noopener">
+    CV <span aria-hidden="true">↗</span>
+  </a>
+
+  <a class="button secondary"
+     href="mailto:johannes.karge@psemail.eu">
+    Email
+  </a>
+</div>
     </div>
     <div class="hero-photo-wrap">
       <img class="hero-photo" src="{{ '/assets/profile-photo.jpg' | relative_url }}" alt="Portrait of {{ site.data.profile.name }}">
