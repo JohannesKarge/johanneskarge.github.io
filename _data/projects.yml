@@ -10,7 +10,7 @@ projects:
       - label: "Latest version"
         url: "/assets/JMP_Bonds_Karge.pdf"
     abstract: >
-      Do corporate bond markets stabilize corporate financing when banks are impaired? Theory delivers an ambiguous aggregate prediction: firms with bond-market access may substitute away from banks, while constrained firms may lose financing and bank loans and bonds may be complements. I study which force dominates using a new long-run dataset of primary bond issuance by issuer sector for 19 countries from the nineteenth century to the present. Non-financial corporate bond issuance falls sharply and persistently after systemic banking crises: three years after crisis onset, issuance is roughly one-half below its pre-crisis level. By contrast, government issuance rises strongly, while financial-sector issuance increases only temporarily. The NFC contraction is robust to alternative normalizations and historical periods. Security-level evidence from Australia shows how continued issuance by established firms can coexist with sharply declining issuer participation and a collapse in long-maturity financing. In the smaller sample with historical credit-spread data, issuance contractions are substantially deeper in crises accompanied by severe risky-debt-market repricing. Taken together, the results show that selective access to bond markets does not translate into a systematic expansion of aggregate NFC primary issuance during banking crises.
+      Do corporate bond markets stabilize corporate financing when banks are impaired? Theory delivers an ambiguous aggregate prediction: firms with bond-market access can substitute away from bank lending, while financing constraints and complementarities between bank loans and bonds can limit aggregate substitution. I study which force dominates using a new long-run dataset of primary bond issuance by issuer sector for 21 countries from the nineteenth century to the present. Non-financial corporate bond issuance falls sharply and persistently after systemic banking crises: three years after crisis onset, non-financial corporate bond issuance is estimated to be roughly one-half lower than its conditional non-crisis benchmark. By contrast, government issuance rises strongly, while financial-sector issuance increases only temporarily. The NFC contraction is robust to alternative normalizations and historical periods. Security-level evidence from pre-WWII Australia shows that continued issuance by established firms can coexist with sharply declining issuer participation and a collapse in long-maturity financing. In a smaller sample with historical credit-spread data, NFC issuance contractions are substantially deeper when crises coincide with severe risky-debt-market repricing.  Taken together, the results show that selective access to bond markets does not translate into a systematic expansion of aggregate NFC primary issuance during banking crises.
     tags:
       - Corporate bond markets
       - Financial crises
@@ -21,7 +21,7 @@ projects:
     status: "Work in progress"
     authors: "with Eric Monnet, Kaspar Zimmermann and Angelo Riva"
     abstract: >
-      This project develops a long-run perspective on the French banking system. It brings together historical sources and modern data to document changes in the size, structure, and composition of banks and their balance sheets across major institutional and macroeconomic transformations. We provide new empirical evidence on how the organisation of banking and credit has evolved in France using unique bank-level balance-sheet data since the early twentieth century.
+      This project constructs a new historical dataset covering 1,594 French banking institutions between 1901 and 2003, with an ongoing extension to the present using modern supervisory data. Combining harmonized bank-level balance sheets with historical information on mergers, acquisitions, and failures, we document the long-run evolution of the French banking system, including changes in bank size, market concentration, and balance sheet composition over time.
     tags:
       - French banking
       - Financial history
@@ -32,7 +32,7 @@ projects:
     status: "Work in progress"
     authors: "with Urszula Szczerbowicz"
     abstract: >
-      How does corporate indebtedness shape firms’ investment responses? This project examines the relationship between corporate debt and investment in France, focusing on how firm-level indebtedness influences the transmission of financial conditions to real activity. It aims to distinguish, in a causal manner, the role of debt as a financing instrument from its role as a constraint by relying on a novel instrumental-variables approach.
+      Using French corporate-group balance sheets and a sensitivity-based instrumental-variable strategy, we examine the effects of corporate debt booms on firms' capital accumulation. We find that a 10 percentage point debt buildup reduces subsequent tangible capital accumulation by approximately 6--10 percent over the following two to four years. The evidence suggests that debt booms initially finance substantial fixed-capital expansion without a comparable increase in operating activity, followed by deleveraging and capital retrenchment.
     tags:
       - Corporate debt
       - Investment
